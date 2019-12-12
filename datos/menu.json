@@ -1,0 +1,26 @@
+{
+    "nombreApp" : "mundig_app",
+    "rutas" : [
+        {
+            "ruta" : "home",
+            "icon" : "add_alert",
+            "texto": "Inicio"
+        },
+        {
+            "ruta" : "news",
+            "icon" : "accessibility",
+            "texto": "Noticias"
+        },
+        {
+            "ruta" : "municipality",
+            "icon" : "folder_open",
+            "texto": "Municipio"
+        },
+        {
+            "ruta" : "shoutIt",
+            "icon" : "donut_large",
+            "texto": "Gritalo"
+        }
+        
+    ]
+}

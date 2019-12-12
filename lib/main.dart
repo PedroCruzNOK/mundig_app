@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mundig_app/src/pages/home_page.dart';
  
 void main() => runApp(MyApp());
  
@@ -8,16 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Material App',
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('TEPEA-Pul Que?'),
-        ),
-        body: Center(
-          child: Container(
-            child: Text('Hello World'),
-          ),
-        ),
-      ),
+      home:HomePage(),
     );
   }
 }
